@@ -1,0 +1,503 @@
+@font-face {
+    font-family: "Baby Script Cut Sans";
+    src: url('/FONT/Baby-script-cut-sans/Babyscriptcutsans-Regular.otf') ;
+  }
+
+  @font-face {
+    font-family: "script-sans";
+    src: url('/FONT/Script-sans/Scriptsans-Regular.otf') ;
+  }
+
+/* Clasique */
+      h1 {
+    font-family: 'Baby Script Cut Sans';
+    }
+
+    h2 {
+        font-family: 'Baby Script Cut Sans';
+    }
+
+    h3 {
+        font-family: 'script-sans';
+    }
+
+    p {
+        font-family: futura-pt, sans-serif;
+        font-size: 20px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #FAEEE7;
+    }
+/* Clasique */
+
+/* header */
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        position: relative;
+      }
+
+      .element-2 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(0deg, rgba(255,107,107,0.5508797268907564) 0%, rgba(255,107,107,1) 100%);
+      }
+
+      .size {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .texte{
+        font-size: 100px;
+        text-align: center;
+        color: #FAEEE7;
+
+    }
+
+    
+/* fin header */
+
+/*texte d'intention*/
+
+.baby {
+    font-family: Baby Script Cut Sans;
+    font-size: 30px;
+}
+
+.baby-2 {
+    font-family: Baby Script Cut Sans;
+    font-size: 50px;
+}
+
+.cut {
+    font-family: script-sans ;
+    font-size: 35px;
+}
+
+.cut-2 {
+    font-family: script-sans ;
+    font-size: 50px;
+}
+
+/* 3D */
+
+    .model-viewer {
+        width: 700px;
+        height: 700px;
+    }
+
+/* Fin 3D */
+
+/* section 2 */
+    .section-2 {
+        margin: 30px;
+    }
+
+    .titre-2 {
+        font-size: 50px;
+    }
+
+ /* Section 1 */
+    .intro {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+ /* Section 1 */
+
+ /* block */
+    .block {
+        background-color: #FFD93D;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .block h2 {
+        font-size: 70px;
+    }
+
+    .block h3 {
+        font-size: 50px;
+    }
+
+    .pastille {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        margin: 5px;
+    }
+
+    .rose {
+        background: #FF6B6B;
+    }
+
+    .vert {
+        background: #6BCB77;
+    }
+
+    .jaune {
+        background: #FFD93D;
+    }
+
+/* Fin block */
+
+/* `Section 3 */
+    .titre {
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .boxes {
+        display: table;
+        clear: both;
+        height: 470px;
+        width: 80%;
+      }
+
+    .boxes h3 {
+        font-size: 80px;
+    }
+
+    .boxes h2 {
+        font-size: 170px;
+    }
+
+    .paragraphe {
+        font-size: 25px;
+    }
+
+    .bck-img {
+        background-image: url(/IMG/fond.png);  
+    }
+
+    .bck-couv {
+        background-image: url(/IMG/couv-3.png);  
+    }
+
+/* `Fin Section 3 */
+
+/* faq acoderon */
+  .accordion {
+    background-color: #FF6B6B;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 40px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #FFD93D; 
+    color: #FF6B6B;
+  }
+  
+  .panel {
+    width: 100%;
+    display: none;
+    background-color: #FFD93D;
+    color: #FF6B6B;
+    overflow: hidden;
+  }
+
+/* Fin faq acoderon */
+
+/* reservavtion */
+
+.reservation{
+    background-color: #6BCB77;
+}
+
+input{
+    padding: 5px;
+    background-color: #ACF3B5;
+    font-family: script-sans;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    border: none;
+}
+
+.reserve-titre {
+    font-size: 40px;
+}
+
+textarea {
+    padding: 10px;
+    background-color: #ACF3B5;
+    font-family: script-sans;
+    font-size: 30px;
+    text-align: left;
+    width: 90%;
+    border: none;
+}
+
+output {
+    font-family: script-sans;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.flex-reservavtion{
+    justify-content: center;
+
+}
+
+.reservation-gauche{
+    width: 50%;
+    border-right: #ACF3B5 solid 5px;
+}
+
+.reservation-droite{
+    width: 50%;
+}
+
+.reservation-droite {
+    width: 50%;
+    padding: 20px;
+}
+
+label {
+    font-family: script-sans ;
+    
+}
+
+.heur {
+    margin-top: 20px;
+}
+
+.date {
+    margin-bottom: 50px;
+}
+
+.plan {
+    width: 90%;
+    
+}
+
+/* Fin reservation */
+
+
+/* Footer */
+
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: #FFD93D;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+/* Fin Footer */
+
+/* classe commune */
+
+    .d-flex {
+        display: flex;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .justify-evenly{
+        justify-content: space-evenly;
+    }
+
+    .img {
+        border-radius: 30px;
+    }
+
+    .aling-center {
+        align-content: center;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .text-aling {
+        text-align: center;
+    }
+
+    .w10 {
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .w80 {
+        width: 80%;
+    }
+
+    .w7 {
+        height: 70px;
+        margin: 7px;
+        text-align: center;
+    }
+
+    .m50 {
+        margin: 50px;
+    }
+
+    .p30 {
+        padding: 30px;
+    }
+
+    .p50 {
+        padding: 50px;
+    }
+
+    .w90 {
+        width: 90%;
+    }
+
+    .font-size {
+        font-size: 100px;
+    }
+
+    .font-size-30 {
+        font-size: 30px;
+    }
+
+    .button {
+        background-color: #FF6B6B;
+        color: #FAEEE7;
+        font-family: script-sans;
+        border: none;
+        border-radius: 50px;
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .margin-auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .color-vert {
+        color: #6BCB77;
+    }
+
+    .color-jaune {
+        color: #FFD93D;
+    }
+
+    .color-rose {
+        color: #FF6B6B;
+    }
+
+    .display-block{
+        display: block;
+    }
+
+
+    .float-right {
+        float: right;
+    }
+
+    .margin-top{
+        margin-top: 70px;
+    }
+/* classe commune */
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .model-viewer {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+    
+    .alphabet {
+        display: none;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .bck-img {
+        height: 70%;
+    }
+
+    .reservation {
+        display: none;
+    }
+
+    .column1{
+        background-color: #FF6B6B;
+        width: 100%;
+        background-image: none;
+    }
+
+    .column1 h2 {
+        font-size: 130px;
+        padding: 10px;
+    }
+
+    .block d-flex {
+        display: none;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+    .titre {
+        margin: 10px;
+    }
+
+    .paragraphe {
+        margin-right: -50px;
+        margin-left: -50px;
+    }
+
+    .paragraphe-2 {
+        flex-direction: column-reverse;
+    }
+
+    .pastille-row {
+        flex-direction: row;
+    }
+
+    .block {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 70px;
+    }
+
+}
+
+/* Fin Responsive */
