@@ -5,7 +5,7 @@
 
   @font-face {
     font-family: "script-sans";
-    src: url('/FONT/Script-sans/Scriptsans-Regular.otf') ;
+    src: url('/FONT/script-sans/scriptsans-regular.otf') ;
   }
 
 /* Clasique */
@@ -50,6 +50,13 @@
         width: 100%;
         background-image: linear-gradient(0deg, rgba(255,107,107,0.5508797268907564) 0%, rgba(255,107,107,1) 100%);
       }
+
+      .element-3 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
 
       .size {
         width: 100%;
@@ -182,8 +189,8 @@
         background-image: url(/IMG/fond.png);  
     }
 
-    .bck-couv {
-        background-image: url(/IMG/couv-3.png);  
+    .bck-couv2 {
+        background-image: url(/IMG/couvtrois.png);  
     }
 
 /* `Fin Section 3 */
