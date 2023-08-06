@@ -4,8 +4,8 @@
   }
 
   @font-face {
-    font-family: "script-sans";
-    src: url('/FONT/script-sans/scriptsans-regular.otf') ;
+    font-family: "script sans";
+    src: url('/FONT/script-sans/scriptsansregular.otf') ;
   }
 
 /* Clasique */
@@ -18,7 +18,7 @@
     }
 
     h3 {
-        font-family: 'script-sans';
+        font-family: 'script sans';
     }
 
     p {
@@ -87,12 +87,12 @@
 }
 
 .cut {
-    font-family: script-sans ;
+    font-family: script sans ;
     font-size: 35px;
 }
 
 .cut-2 {
-    font-family: script-sans ;
+    font-family: script sans ;
     font-size: 50px;
 }
 
@@ -233,7 +233,7 @@
 input{
     padding: 5px;
     background-color: #ACF3B5;
-    font-family: script-sans;
+    font-family: script sans;
     font-size: 30px;
     text-align: center;
     margin: 10px;
@@ -247,7 +247,7 @@ input{
 textarea {
     padding: 10px;
     background-color: #ACF3B5;
-    font-family: script-sans;
+    font-family: script sans;
     font-size: 30px;
     text-align: left;
     width: 90%;
@@ -255,7 +255,7 @@ textarea {
 }
 
 output {
-    font-family: script-sans;
+    font-family: script sans;
     font-size: 40px;
     vertical-align: middle;
 }
@@ -280,7 +280,7 @@ output {
 }
 
 label {
-    font-family: script-sans ;
+    font-family: script sans ;
     
 }
 
@@ -389,7 +389,7 @@ label {
     .button {
         background-color: #FF6B6B;
         color: #FAEEE7;
-        font-family: script-sans;
+        font-family: script sans;
         border: none;
         border-radius: 50px;
         font-size: 30px;
@@ -440,11 +440,19 @@ label {
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 30px;
     }
 
     h2 {
-        font-size: 70px;
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 10px;
     }
     
     .alphabet {
@@ -455,12 +463,53 @@ label {
         display: none;
     }
 
+
+    header {
+        display: none;
+    }
+
+    .woopitoo-couv-2 {
+        display: none;
+    }
+
+    .texte-woopitoo {
+        display: none;
+    }
+
     .bck-img {
         height: 70%;
     }
 
     .reservation {
         display: none;
+    }
+
+    .cut-2{
+        font-size: 25px;
+    }
+
+    .baby-2{
+        font-size: 20px;
+    }
+
+    .model-3D {
+        display: none;
+    }
+
+    .cut {
+        font-size: 15px;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    .font-size {
+        font-size: 30px;
+    }
+
+    .font-size-30 {
+        font-size: 15px;
     }
 
     .column1{
@@ -489,6 +538,10 @@ label {
     .paragraphe {
         margin-right: -50px;
         margin-left: -50px;
+    }
+
+    .footer {
+        font-size: 10px;
     }
 
     .paragraphe-2 {
